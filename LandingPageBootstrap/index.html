@@ -12,7 +12,7 @@
         }
 
         .jumbotron {
-            background-color: cadetblue;
+            text-shadow: black 1px 1px;
         }
 
         .background-header {
@@ -24,12 +24,24 @@
             background-size: cover;
             position: relative;
         }
+
+        .button-primer {
+            background-color: #00bd8e;
+            border-color: #0b9b6b;
+            color: #ffffff;
+            text-shadow: 0px 0px;
+        }
+
+        .button-primer:hover {
+            background-color: #038c6a;
+            text-shadow: 0px 0px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00171ffd ;">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="Image/logo.png" width="120px">
@@ -73,7 +85,23 @@
     </nav>
     <!-- Header -->
     <section class="jumbotron jumbotron-fluid background-header">
-
+        <div class="container-fluid text-center">
+            <h1 class="display-3" style="color: aliceblue;">
+                Solusi Terbaik Belajarmu
+            </h1>
+            <p class="lead" style="font-weight: bold; color: #ffffff;">
+                Kami menyediakan banyak modul yang kmu butuhkan untku belajar pemrograman dari tingkat dasar sampai
+                mahir
+            </p>
+            <p>
+                <a href="#" class="btn button-primer btn-lg" role="button">
+                    Gabung sekarang
+                </a>
+                <a href="#" class="btn btn-secondary btn-lg" style="text-shadow: 0px 0px;" role="button">
+                    Pelajari Lebih Lanjut
+                </a>
+            </p>
+        </div>
     </section>
     <!-- Service -->
     <section id="services">
