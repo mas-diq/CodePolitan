@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
+        html{
+            scroll-behavior: smooth;
+        }
         body {
             padding-top: 56px;
         }
 
         .jumbotron {
-            font-family: 'Courier New', Courier, monospace;
+            font-family:'Courier New', Courier, monospace;
         }
 
         .background-header {
@@ -40,10 +43,10 @@
             background-color: #8bb174fd;
             content: "";
             display: inline-block;
-            height: 1px;
+            height: 4px;
             position: relative;
             vertical-align: middle;
-            width: 50%;
+            width: 24%;
         }
 
         h2::before {
@@ -54,6 +57,10 @@
         h2::after {
             left: 0.5em;
             margin-right: -50%;
+        }
+
+        .cover {
+            background: no-repeat center/cover;
         }
     </style>
 </head>
@@ -126,7 +133,7 @@
     <section id="services" class="container-fluid service-style">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-4"> Mengapa memilih kami? </h2>
+                <h2 class="display-4" style="margin-top: 6rem;"> Mengapa memilih kami? </h2>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <span class="fa-stack fa-2x">
@@ -166,17 +173,17 @@
         </div>
     </section>
     <!-- Product -->
-    <section id="product" class="container">
+    <section id="product" class="container-fluid">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-4 text-center mb-5">Produk Kami</h2>
+                <h2 class="display-4 text-center mb-5" style="margin-top: 6rem;">Produk Kami</h2>
             </div>
             <!--Product 1-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product1.jpg"
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product1.jpg"
                         alt="Product 1">
-                    <div class="card-body">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Memulai menggunakan wireframe</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -189,9 +196,9 @@
             <!--Product 2-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product2.jpg"
-                        alt="Product 1">
-                    <div class="card-body">
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product2.jpg"
+                        alt="Product 2">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Merancang Wireframe yang baik dan benar</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -204,9 +211,9 @@
             <!--Product 3-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product3.png"
-                        alt="Product 1">
-                    <div class="card-body">
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product3.png"
+                        alt="Product 3">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Membuat Wireframe dari sketsa kasar</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -219,9 +226,9 @@
             <!--Product 4-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product4.jpg"
-                        alt="Product 1">
-                    <div class="card-body">
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product4.jpg"
+                        alt="Product 4">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Mempelajari arti dari wireframe secara luas</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -234,9 +241,9 @@
             <!--Product 5-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product5.jpg"
-                        alt="Product 1">
-                    <div class="card-body">
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product5.jpg"
+                        alt="Product 5">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Mengapa wireframe cukup menggunakan 2 warna?</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -249,9 +256,9 @@
             <!--Product 6-->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product6.jpg"
-                        alt="Product 1">
-                    <div class="card-body">
+                    <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product6.jpg"
+                        alt="Product 6">
+                    <div class="card-body" style="min-height: 250px;">
                         <h4 class="card-tittle">Pensil / Pulpen untuk membuat wireframe?</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
@@ -264,16 +271,83 @@
         </div>
     </section>
     <!-- About Us -->
-    <section id="about">
-
+    <section id="about" class="bg-light">
+        <div class="container-fluid">
+            <h2 class="display-4 text-center mb-5" style="margin-top: 6rem!">Tentang Kami</h2>
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6">
+                    <div style="padding: 24px;">
+                        <h1 class="display-5 text-center text-green mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
+                            <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <br>
+                            <p style="text-align: justify; padding: 0px 24px;">
+                                It has survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            </p>
+                            <div class="col-12 pt-3 text-center">
+                                <a href="#" class="btn btn btn-outline-success btn-lg text-green">Lihat Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover">
+                        <img class="img-fluid" src="Image/Banner2.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="vh-100 cover">
+                        <img class="img-fluid" src="Image/Banner3.jpg">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 24px;">
+                        <h1 class="display-5 text-center text-green mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
+                            <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
+                                printing and
+                                typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <br>
+                            <p style="text-align: justify; padding: 0px 24px;">
+                                It has survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                            </p>
+                            <div class="col-12 pt-3 text-center">
+                                <a href="#" class="btn btn btn-outline-success btn-lg text-green">Lihat Selengkapnya</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
-
+    <section id="contact" class="container-fluid text-center" style="background-color:#ffffff; padding-top: 24px;">
+        <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+        <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami </p>
+        <a href="#" class="btn btn-primary btn-lg mb-4">WhatsApp Kami</a>
     </section>
     <!-- Footer -->
-    <footer>
-
+    <footer class="bg-dark">
+        <div class="col-lg-12" style="padding: 12px;">
+            <div style="text-align: center; ">
+                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-facebook"></i> </a>
+                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-twitter"></i> </a>
+                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-instagram"></i> </a>
+            </div>
+            <p class="text-center text-secondary">Copyright &copy msf31 2021 </p>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
