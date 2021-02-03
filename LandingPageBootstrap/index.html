@@ -29,6 +29,32 @@
             margin-top: 15px;
             background-color: #fafbfc;
         }
+
+        .text-green {
+            color: #8bb174fd;
+            font-weight: bold;
+        }
+
+        h2:before,
+        h2:after {
+            background-color: #8bb174fd;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+
+        h2::before {
+            right: 0.5em;
+            margin-left: -50%;
+        }
+
+        h2::after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
     </style>
 </head>
 
@@ -79,7 +105,7 @@
     <!-- Header -->
     <section class="jumbotron jumbotron-fluid background-header">
         <div class="container-fluid text-center">
-            <h1 class="display-3" style="color: aliceblue;">
+            <h1 class="display-2" style="color: white;">
                 Solusi Terbaik Belajarmu
             </h1>
             <p class="lead" style="font-weight: bold; color: #ffffff;">
@@ -97,36 +123,145 @@
         </div>
     </section>
     <!-- Service -->
-    <section id="services" class="container service-style">
+    <section id="services" class="container-fluid service-style">
         <div class="row text-center">
-            <div class="col-12">
-                <h2> Mengapa memilih kami? </h2>
+            <div class="col-12 pb-4">
+                <h2 class="display-4"> Mengapa memilih kami? </h2>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-                <i class="fas fa-list"></i>
-                <h3> Fasilitas Oke </h3>
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-list fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-green"> Fasilitas Oke </h3>
                 <p>Fasilitas yang kami sediakan sangat lengkap dan nyaman</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-                <i class="fas fa-laptop-code"></i>
-                <h3> Modul Lengkap </h3>
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-green"> Modul Lengkap </h3>
                 <p>Lebih dari 2000 modul tersedia di tempat kami</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-                <i class="fas fa-money-bill"></i>
-                <h3> Biaya terjangkau </h3>
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-green"> Biaya terjangkau </h3>
                 <p>Biaya ssangat terjangkau</p>
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
-                <i class="fas fa-chart-line"></i>
-                <h3> Terarah </h3>
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-green"> Terarah </h3>
                 <p>Sistem pembelajaran kami cukup terarah dan mudah</p>
+            </div>
+            <div class="col-12 pt-3 mb-5">
+                <a class="btn btn-outline-primary btn-lg" target="_blank" href="#" role="button">Service lainnya</a>
             </div>
         </div>
     </section>
     <!-- Product -->
-    <section id="product">
-
+    <section id="product" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5">Produk Kami</h2>
+            </div>
+            <!--Product 1-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product1.jpg"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Memulai menggunakan wireframe</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <!--Product 2-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product2.jpg"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Merancang Wireframe yang baik dan benar</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <!--Product 3-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product3.png"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Membuat Wireframe dari sketsa kasar</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <!--Product 4-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product4.jpg"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Mempelajari arti dari wireframe secara luas</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <!--Product 5-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product5.jpg"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Mengapa wireframe cukup menggunakan 2 warna?</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <!--Product 6-->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px; max-width: 400px;" src="Image/Product6.jpg"
+                        alt="Product 1">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Pensil / Pulpen untuk membuat wireframe?</h4>
+                        <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- About Us -->
     <section id="about">
