@@ -12,11 +12,11 @@
         }
 
         .jumbotron {
-            text-shadow: black 1px 1px;
+            font-family: 'Courier New', Courier, monospace;
         }
 
         .background-header {
-            background-image: url("Image/Banner.png");
+            background-image: url("Image/Banner.jpg");
             background-color: #fafbfc;
             height: 400px;
             background-position: center;
@@ -25,16 +25,9 @@
             position: relative;
         }
 
-        .button-primer {
-            background-color: #00bd8e;
-            border-color: #0b9b6b;
-            color: #ffffff;
-            text-shadow: 0px 0px;
-        }
-
-        .button-primer:hover {
-            background-color: #038c6a;
-            text-shadow: 0px 0px;
+        .service-stlye {
+            margin-top: 15px;
+            background-color: #fafbfc;
         }
     </style>
 </head>
@@ -59,7 +52,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#service">
+                        <a class="nav-link" href="#services">
                             Service
                         </a>
                     </li>
@@ -94,7 +87,7 @@
                 mahir
             </p>
             <p>
-                <a href="#" class="btn button-primer btn-lg" role="button">
+                <a href="#" class="btn btn-primary btn-lg" role="button">
                     Gabung sekarang
                 </a>
                 <a href="#" class="btn btn-secondary btn-lg" style="text-shadow: 0px 0px;" role="button">
@@ -104,8 +97,32 @@
         </div>
     </section>
     <!-- Service -->
-    <section id="services">
-
+    <section id="services" class="container service-style">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2> Mengapa memilih kami? </h2>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <i class="fas fa-list"></i>
+                <h3> Fasilitas Oke </h3>
+                <p>Fasilitas yang kami sediakan sangat lengkap dan nyaman</p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <i class="fas fa-laptop-code"></i>
+                <h3> Modul Lengkap </h3>
+                <p>Lebih dari 2000 modul tersedia di tempat kami</p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <i class="fas fa-money-bill"></i>
+                <h3> Biaya terjangkau </h3>
+                <p>Biaya ssangat terjangkau</p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <i class="fas fa-chart-line"></i>
+                <h3> Terarah </h3>
+                <p>Sistem pembelajaran kami cukup terarah dan mudah</p>
+            </div>
+        </div>
     </section>
     <!-- Product -->
     <section id="product">
@@ -132,6 +149,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="https://kit.fontawesome.com/a95be9b017.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
