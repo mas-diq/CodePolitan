@@ -4,9 +4,8 @@
 
 <head>
     <meta charset='utf-8'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <style>
         html {
             scroll-behavior: smooth;
@@ -19,6 +18,7 @@
         }
 
         .background-header {
+            padding: 64px 0px;
             background-image: url("Image/Banner0.jpg");
             height: 24%;
             background-position: center;
@@ -27,13 +27,9 @@
             position: relative;
         }
 
-        .service-stlye {
-            margin-top: 15px;
-            padding: 24px;
-        }
 
-        .text-yellow {
-            color: #0069D9;
+        .text-green {
+            color: #198754;
             font-weight: bold;
         }
 
@@ -45,7 +41,7 @@
 
 <body>
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00161E ;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top al" style="background-color: #00161E;" ;">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="Image/logo.png" width="120px">
@@ -56,7 +52,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ml-auto" style="font-size: 18px;">
+                <ul class="navbar-nav" style="font-size: 18px; margin-left: auto;">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
                             Home
@@ -89,85 +85,86 @@
     </nav>
     <!-- Header -->
     <section class="jumbotron jumbotron-fluid background-header">
-        <div class="container-fluid text-left">
-            <h1 class="display-5 text-dark font-weight-lighter" style="padding: 128px 64px 0px 64px;">
-                Learning how to make
+        <div class="container text-left">
+            <h1 class="display-5 fw-normal text-dark font-weight-lighter" style="padding: 128px 64px 0px 64px;">
+                Place for you who want to make
             </h1>
-            <h1 class="display-2 font-weight-bold" style="padding: 0px 64px;">
-                Stunning <a class="bg-primary text-white"> Wireframe</a>
-            </h1>
+            <p class="display-1 fw-bold fst-italic" style="padding: 0px 64px;">
+                Stunning <a style="background-color:#198754">Wireframe</a>
+            </p>
             <p style="padding: 0px 64px 128px 64px;">
-                <a href="#" class="btn btn-primary btn-lg" role="button">
+                <a href="#" class="btn btn-success btn-lg" role="button">
                     Learn More
                 </a>
                 <a href="#" class="btn btn-secondary btn-lg" role="button">
-                    Info
+                    Join The Community
                 </a>
             </p>
         </div>
     </section>
     <!-- Service -->
-    <section id="services" class="container service-style" style="padding-top: 64px;">
+    <section id="services" class="container service-style" style="padding: 128px 0px;">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-3 text-white font-weight-bold" style="margin-top: 24px;">4 Reasons Why?
+                <h2 class="display-3 text-white fw-bold" style="margin-top: 24px;">4 Reasons Why We Fit In
                 </h2>
             </div>
-            <div class="col" style="padding: 0px 24px;">
+            <div class="col" style="padding: 24px 12px;">
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fas fa-list fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-white font-weight-bold"> Good Facilities </h3>
+                <h3 class="text-white fw-bolder" style="padding:12px 0px 6px 0px;"> Good Facilities </h3>
                 <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col" style="padding: 0px 24px" ;>
+            <div class="col" style="padding: 24px 12px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-white font-weight-bold"> Complete Module </h3>
+                <h3 class="text-white fw-bolder" style="padding:12px 0px 6px 0px"> Easy To Used </h3>
                 <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col" style="padding: 0px 24px" ;>
+            <div class="col" style="padding: 24px 12px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fas fa-money-bill fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-white font-weight-bold"> Affordable Cost </h3>
+                <h3 class="text-white fw-bolder" style="padding:12px 0px 6px 0px"> Affordable Cost </h3>
                 <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col" style="padding: 0px 24px" ;>
+            <div class="col" style="padding: 24px 12px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fas fa-chart-line fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-white font-weight-bold" style="padding: 0px 24px"> Directed One</h3>
+                <h3 class="text-white fw-bolder" style="padding:12px 0px 6px 0px"> Directed Path</h3>
                 <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
             <div class="col-12" style="padding-top: 24px;">
-                <a class="btn btn-outline-primary btn-lg" target="_blank" href="#" role="button">Show All Benefit</a>
+                <a class="btn btn-success btn-lg" target="#sss" href="#" role="button">Show All Benefit</a>
             </div>
         </div>
     </section>
     <!-- Product -->
-    <section id="product" class="container">
+    <section id="product" class="container" style="padding: 64px 0px;">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-3 text-center text-white font-weight-bold" style="margin-top: 64px;">See Our Free Courses!</h2>
+                <h2 class="display-3 text-center text-white fw-bold" style="margin-top: 24px;">See Our Free
+                    Courses!</h2>
             </div>
             <!--Product 1-->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product1.jpg"
                         alt="Product 1">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Memulai menggunakan wireframe</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px">Get started with wireframes</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -176,13 +173,13 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product2.jpg"
                         alt="Product 2">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Merancang Wireframe yang baik dan benar</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px"> Designing a good and correct wireframe</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -191,13 +188,13 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product3.png"
                         alt="Product 3">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Membuat Wireframe dari sketsa kasar</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px">Creating a wireframe from sketch</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -206,13 +203,13 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product4.jpg"
                         alt="Product 4">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Mempelajari arti dari wireframe secara luas</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px">Learn what wireframes mean in broad terms</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -221,13 +218,13 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product5.jpg"
                         alt="Product 5">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Mengapa wireframe cukup menggunakan 2 warna?</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px">Learn the basics of wireframes</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -236,27 +233,30 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px; max-width: 800px;" src="Image/Product6.jpg"
                         alt="Product 6">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-tittle">Pensil / Pulpen untuk membuat wireframe?</h4>
+                    <div class="card-body" style="min-height: 64px;">
+                        <h4 class="card-tittle" style="padding: 8px">Pencils / Pens for making wireframes?</h4>
                         <p class="class-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry
                         </p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-outline-info">Pelajari Lebih Lanjut</a>
+                        <a href="#" class="btn btn-outline-success">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- About Us -->
-    <section id="about" class="bg-light">
-        <div class="container-fluid">
-            <h2 class="display-4 text-center mb-5" style="margin-top: 6rem!">Tentang Kami</h2>
-            <div class="row no-gutters">
+    <section id="about">
+        <div class="container">
+            x <div class=" row no-gutters">
+                <h2 class="display-3 text-center fw-bold text-white" style="padding: 64px 0px;">The journey it's never
+                    stop</h2>
                 <div class="col-12 col-md-6">
                     <div style="padding: 24px;">
-                        <h1 class="display-5 text-center text-yellow mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
-                            <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
+                        <h1 class="text-center text-white fw-bolder" style="padding: 48px 0px 12px 0px;">We really
+                            believe in the Process</h3>
+                            <p class="text-white" style="text-align: justify; padding: 12px 24px;">Lorem Ipsum is simply
+                                dummy text of the
                                 printing and
                                 typesetting
                                 industry. Lorem Ipsum has
@@ -264,31 +264,27 @@
                                 took a
                                 galley of type and scrambled it to make a type specimen book.</p>
                             <br>
-                            <p style="text-align: justify; padding: 0px 24px;">
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                            </p>
-                            <div class="col-12 pt-3 text-center">
-                                <a href="#" class="btn btn btn-outline-success btn-lg text-yellow">Lihat Selengkapnya</a>
+                            <div class="col-12 text-center">
+                                <a href="#" class="btn btn btn-outline-success btn-lg">Lean More</a>
                             </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="vh-100 cover">
+                <div class="col-12 col-md-6" style="padding: 48px 0px;">
+                    <div class="cover">
                         <img class="img-fluid" src="Image/Banner2.jpg">
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="vh-100 cover">
+                <div class="col-12 col-md-6" style="padding: 48px 0px;">
+                    <div class="cover">
                         <img class="img-fluid" src="Image/Banner3.jpg">
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div style="padding: 24px;">
-                        <h1 class="display-5 text-center text-yellow mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
-                            <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
+                        <h1 class="text-white fw-bolder text-center" style="padding: 48px 0px 12px 0px;"> Nothing is
+                            Instantaneous</h3>
+                            <p class="text-white" style="text-align: justify; padding: 12px 24px;">Lorem Ipsum is simply
+                                dummy text of the
                                 printing and
                                 typesetting
                                 industry. Lorem Ipsum has
@@ -296,14 +292,8 @@
                                 took a
                                 galley of type and scrambled it to make a type specimen book.</p>
                             <br>
-                            <p style="text-align: justify; padding: 0px 24px;">
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                            </p>
                             <div class="col-12 pt-3 text-center">
-                                <a href="#" class="btn btn btn-outline-success btn-lg text-yellow">Lihat Selengkapnya</a>
+                                <a href="#" class="btn btn btn-outline-success btn-lg text-green">Lean More</a>
                             </div>
                     </div>
                 </div>
@@ -311,30 +301,20 @@
         </div>
     </section>
     <!-- Contact -->
-    <section id="contact" class="container-fluid text-center" style="background-color:#ffffff; padding-top: 24px;">
-        <h2 class="display-5">Hubungi Kami Sekarang!</h2>
-        <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami </p>
-        <a href="#" class="btn btn-primary btn-lg mb-4">WhatsApp Kami</a>
+    <section id="contact" class="container text-center" style="padding: 128px 0px;">
+        <h2 class="display-1 fw-bolder text-white">Want to know more?</h2>
+        <p class="display-5 text-white" style="padding; 48px 0px"> Join the millions of people in the community</p>
+        <a href="#" class="btn btn-success btn-lg fw-bolder" style="margin-top: 64px;">Join The Community Now!</a>
     </section>
     <!-- Footer -->
-    <footer class="bg-dark">
-        <div class="col-lg-12" style="padding: 12px;">
-            <div style="text-align: center; ">
-                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-facebook"></i> </a>
-                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-twitter"></i> </a>
-                <a href="#" class="text-light" style="padding: 6x;"> <i class="fab fa-instagram"></i> </a>
-            </div>
-            <p class="text-center text-secondary">Copyright &copy msf31 2021 </p>
+    <footer">
+            <p class="text-center text-white">Copyright &copymsf31 2021 </p>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/a95be9b017.js" crossorigin="anonymous"></script>
 </body>
