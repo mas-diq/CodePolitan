@@ -6,22 +6,21 @@
     <meta charset='utf-8'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <style>
-        html{
+        html {
             scroll-behavior: smooth;
         }
-        body {
-            padding-top: 56px;
-        }
 
-        .jumbotron {
-            font-family:'Courier New', Courier, monospace;
+        body {
+            padding-top: 64px;
+            background-color: #00161E;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .background-header {
-            background-image: url("Image/Banner.jpg");
-            background-color: #fafbfc;
-            height: 400px;
+            background-image: url("Image/Banner0.jpg");
+            height: 24%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -30,33 +29,12 @@
 
         .service-stlye {
             margin-top: 15px;
-            background-color: #fafbfc;
+            padding: 24px;
         }
 
-        .text-green {
-            color: #8bb174fd;
+        .text-yellow {
+            color: #0069D9;
             font-weight: bold;
-        }
-
-        h2:before,
-        h2:after {
-            background-color: #8bb174fd;
-            content: "";
-            display: inline-block;
-            height: 4px;
-            position: relative;
-            vertical-align: middle;
-            width: 24%;
-        }
-
-        h2::before {
-            right: 0.5em;
-            margin-left: -50%;
-        }
-
-        h2::after {
-            left: 0.5em;
-            margin-right: -50%;
         }
 
         .cover {
@@ -67,7 +45,7 @@
 
 <body>
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00171ffd ;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00161E ;">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="Image/logo.png" width="120px">
@@ -78,8 +56,8 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav ml-auto" style="font-size: 18px;">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">
                             Home
                         </a>
@@ -111,72 +89,72 @@
     </nav>
     <!-- Header -->
     <section class="jumbotron jumbotron-fluid background-header">
-        <div class="container-fluid text-center">
-            <h1 class="display-2" style="color: white;">
-                Solusi Terbaik Belajarmu
+        <div class="container-fluid text-left">
+            <h1 class="display-5 text-dark font-weight-lighter" style="padding: 128px 64px 0px 64px;">
+                Learning how to make
             </h1>
-            <p class="lead" style="font-weight: bold; color: #ffffff;">
-                Kami menyediakan banyak modul yang kmu butuhkan untku belajar pemrograman dari tingkat dasar sampai
-                mahir
-            </p>
-            <p>
+            <h1 class="display-2 font-weight-bold" style="padding: 0px 64px;">
+                Stunning <a class="bg-primary text-white"> Wireframe</a>
+            </h1>
+            <p style="padding: 0px 64px 128px 64px;">
                 <a href="#" class="btn btn-primary btn-lg" role="button">
-                    Gabung sekarang
+                    Learn More
                 </a>
-                <a href="#" class="btn btn-secondary btn-lg" style="text-shadow: 0px 0px;" role="button">
-                    Pelajari Lebih Lanjut
+                <a href="#" class="btn btn-secondary btn-lg" role="button">
+                    Info
                 </a>
             </p>
         </div>
     </section>
     <!-- Service -->
-    <section id="services" class="container-fluid service-style">
+    <section id="services" class="container service-style" style="padding-top: 64px;">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-4" style="margin-top: 6rem;"> Mengapa memilih kami? </h2>
+                <h2 class="display-3 text-white font-weight-bold" style="margin-top: 24px;">4 Reasons Why?
+                </h2>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col" style="padding: 0px 24px;">
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
                     <i class="fas fa-list fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green"> Fasilitas Oke </h3>
-                <p>Fasilitas yang kami sediakan sangat lengkap dan nyaman</p>
+                <h3 class="mt-4 text-white font-weight-bold"> Good Facilities </h3>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col" style="padding: 0px 24px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
                     <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green"> Modul Lengkap </h3>
-                <p>Lebih dari 2000 modul tersedia di tempat kami</p>
+                <h3 class="mt-4 text-white font-weight-bold"> Complete Module </h3>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col" style="padding: 0px 24px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
                     <i class="fas fa-money-bill fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green"> Biaya terjangkau </h3>
-                <p>Biaya ssangat terjangkau</p>
+                <h3 class="mt-4 text-white font-weight-bold"> Affordable Cost </h3>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col-12 col-sm-6 col-lg-3">
+            <div class="col" style="padding: 0px 24px" ;>
                 <span class="fa-stack fa-2x">
-                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <i class="fas fa-circle fa-stack-2x text-yellow"></i>
                     <i class="fas fa-chart-line fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green"> Terarah </h3>
-                <p>Sistem pembelajaran kami cukup terarah dan mudah</p>
+                <h3 class="mt-4 text-white font-weight-bold" style="padding: 0px 24px"> Directed One</h3>
+                <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
-            <div class="col-12 pt-3 mb-5">
-                <a class="btn btn-outline-primary btn-lg" target="_blank" href="#" role="button">Service lainnya</a>
+            <div class="col-12" style="padding-top: 24px;">
+                <a class="btn btn-outline-primary btn-lg" target="_blank" href="#" role="button">Show All Benefit</a>
             </div>
         </div>
     </section>
     <!-- Product -->
-    <section id="product" class="container-fluid">
+    <section id="product" class="container">
         <div class="row text-center">
             <div class="col-12 pb-4">
-                <h2 class="display-4 text-center mb-5" style="margin-top: 6rem;">Produk Kami</h2>
+                <h2 class="display-3 text-center text-white font-weight-bold" style="margin-top: 64px;">See Our Free Courses!</h2>
             </div>
             <!--Product 1-->
             <div class="col-md-4 mb-4">
@@ -277,7 +255,7 @@
             <div class="row no-gutters">
                 <div class="col-12 col-md-6">
                     <div style="padding: 24px;">
-                        <h1 class="display-5 text-center text-green mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
+                        <h1 class="display-5 text-center text-yellow mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
                             <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
                                 printing and
                                 typesetting
@@ -293,7 +271,7 @@
                                 publishing software like Aldus PageMaker including versions of Lorem Ipsum
                             </p>
                             <div class="col-12 pt-3 text-center">
-                                <a href="#" class="btn btn btn-outline-success btn-lg text-green">Lihat Selengkapnya</a>
+                                <a href="#" class="btn btn btn-outline-success btn-lg text-yellow">Lihat Selengkapnya</a>
                             </div>
                     </div>
                 </div>
@@ -309,7 +287,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div style="padding: 24px;">
-                        <h1 class="display-5 text-center text-green mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
+                        <h1 class="display-5 text-center text-yellow mt-3 mb-3"> Perjalanan Bisnis Kami </h3>
                             <p style="text-align: justify; padding: 0px 24px;">Lorem Ipsum is simply dummy text of the
                                 printing and
                                 typesetting
@@ -325,7 +303,7 @@
                                 publishing software like Aldus PageMaker including versions of Lorem Ipsum
                             </p>
                             <div class="col-12 pt-3 text-center">
-                                <a href="#" class="btn btn btn-outline-success btn-lg text-green">Lihat Selengkapnya</a>
+                                <a href="#" class="btn btn btn-outline-success btn-lg text-yellow">Lihat Selengkapnya</a>
                             </div>
                     </div>
                 </div>
@@ -334,7 +312,7 @@
     </section>
     <!-- Contact -->
     <section id="contact" class="container-fluid text-center" style="background-color:#ffffff; padding-top: 24px;">
-        <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+        <h2 class="display-5">Hubungi Kami Sekarang!</h2>
         <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami </p>
         <a href="#" class="btn btn-primary btn-lg mb-4">WhatsApp Kami</a>
     </section>
