@@ -1,7 +1,7 @@
-# CodePolitan
-Free course from codepolitan website
+# Landing-Page-Bootstrap
+My First website using css framework (Bootstrap 5)
 
-## Show website : https://elated-heisenberg-14988d.netlify.app
+## Show website : http://bit.ly/Landing-Page-Bootstrap
 
 <br />
 
