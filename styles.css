@@ -1,0 +1,31 @@
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 64px;
+    background-color: #00161E;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.background-header {
+    padding: 64px 0px;
+    background-image: url("Image/Banner0.jpg");
+    height: 24%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.text-green {
+    color: #198754;
+    font-weight: bold;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
+</style>
